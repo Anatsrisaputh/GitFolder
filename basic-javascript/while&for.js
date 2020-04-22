@@ -1,8 +1,9 @@
 let i = 0;
-while (i < 10 ) {
-  alert(i++)
+while (i < 10) {
+  i++
+  console.log(i)
 }
 
-for (let i = 0; i < 10; i++) {
-  alert(i)
-}
+// for (let i = 0; i < 10; i++) {
+//   console.log(i);
+// }
